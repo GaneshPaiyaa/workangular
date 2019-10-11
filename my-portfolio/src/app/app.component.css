@@ -1,0 +1,17 @@
+.full-page{    
+	font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
+	}
+.full-page {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container-wrap {
+    margin: 0 auto;
+}
+
