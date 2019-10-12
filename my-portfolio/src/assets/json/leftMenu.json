@@ -1,0 +1,31 @@
+[
+    {
+        "Name": "HOME",
+        "id": "menuHome",
+		"class" : "active"
+    },
+	{
+        "Name": "ABOUT",
+        "id": "menuAbout"
+    },
+	{
+        "Name": "SERVICES",
+        "id": "menuServices"
+    },
+	{
+        "Name": "SKILLS",
+        "id": "menuSkills"
+    },
+	{
+        "Name": "EDUCATION",
+        "id": "menuEducation"
+    },
+	{
+        "Name": "EXPERIENCE",
+        "id": "menuExperience"
+    },
+	{
+        "Name": "WORK",
+        "id": "menuWork"
+    }
+]

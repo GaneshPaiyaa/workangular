@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import leftMenuData from '../../assets/json/leftMenu.json';
 
 @Component({
   selector: 'app-left-panel',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeftPanelComponent implements OnInit {
 
-  constructor() { }
+	menuData: [] = leftMenuData;
+	
+	constructor() {
 
-  ngOnInit() {
-  }
+	}
+
+	ngOnInit() {
+	}
 
 }
