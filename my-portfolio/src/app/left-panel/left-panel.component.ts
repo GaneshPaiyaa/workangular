@@ -8,7 +8,7 @@ import leftMenuData from '../../assets/json/leftMenu.json';
 })
 export class LeftPanelComponent implements OnInit {
 
-	menuData: [] = leftMenuData;
+	menuData = leftMenuData;
 	
 	constructor() {
 

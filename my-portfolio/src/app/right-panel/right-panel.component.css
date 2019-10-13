@@ -54,8 +54,10 @@ padding: 20px;
     border-bottom: 2px solid red;
 	    margin: 0px 12px;
 		    background: #ccc;
-			
 			position:relative;
+			flex-basis: 15%;
+			flex-grow: 0;
+
 }
 .upper-icon{
     position: absolute;
