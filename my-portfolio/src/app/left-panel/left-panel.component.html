@@ -1,12 +1,12 @@
 <aside class="content-aside" style="height: 657px;">
 <div class="text-center">
 	<div class="author-img"></div>
-	<h1 class="my-name"><a href="index.html">Ganesh J</a></h1>
+	<h1 class="my-name" (click)="onClickScrollToTop()">Ganesh J</h1>
 	<span class="my-position"><a href="#">UI Developer</a> in Chennai</span>
 </div>
 <nav class="navbar">
 	<div class="menu" style="height: 0px;">
-		<ul>
+		<ul> 
 			<li *ngFor="let lmenus of menuData" class="{{lmenus.class}}">
 				<a href="#">{{lmenus.Name}}</a> 
 			</li>

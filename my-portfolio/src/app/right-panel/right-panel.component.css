@@ -20,7 +20,7 @@
     font-weight: 700;
     display: inline-block;
 }
-.about-us{
+.about-us, .expertise{
 	padding:20px
 }
 .small-heading {
@@ -74,4 +74,7 @@ padding: 20px;
 .info{
 padding:0 20px;
 font-size: 18px;
+}
+.highlite{
+    font-weight: bold;
 }

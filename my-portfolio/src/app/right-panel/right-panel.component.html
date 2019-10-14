@@ -1,6 +1,6 @@
 <div class="right-content">
-	<section class="my-intro">
-		<div class="my-designation">
+	<section class="my-intro" (mouseover)="hover=true" (mouseleave)="hover=false">
+		<div class="my-designation" [ngStyle]="{color: hover==true  ? '#48484a' : '#000' }">
 			I am <br>
 			UI Developer
 		</div>
@@ -26,7 +26,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="about-us">
+	<section class="expertise">
 		<span class="small-heading">
 			{{rContents[1].smallheading}}
 		</span>

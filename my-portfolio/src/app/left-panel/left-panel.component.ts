@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import leftMenuData from '../../assets/json/leftMenu.json';
+import { Component, OnInit, Input } from '@angular/core';
+import { DataService } from '../data.service';
+
 
 @Component({
   selector: 'app-left-panel',
@@ -8,13 +9,13 @@ import leftMenuData from '../../assets/json/leftMenu.json';
 })
 export class LeftPanelComponent implements OnInit {
 
-	menuData = leftMenuData;
-	
-	constructor() {
+	@Input() menuData : any;
 
+	constructor(private data: DataService) { }
+
+	ngOnInit() { }
+
+	onClickScrollToTop(){
+		this.data.scrollToTop();
 	}
-
-	ngOnInit() {
-	}
-
 }
